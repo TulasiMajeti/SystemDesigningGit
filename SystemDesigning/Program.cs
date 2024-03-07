@@ -25,7 +25,7 @@ namespace GitProject
 
         public void GitMethod()
         {
-            Console.WriteLine("Git method");
+            Console.WriteLine("Git method added");
         }
     }
 }
