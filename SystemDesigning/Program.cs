@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using SystemDesigning;
 
 namespace GitProject
 {
@@ -14,8 +15,9 @@ namespace GitProject
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            GitClass GitClass = new();
-            GitClass.GitMethod();
+            
+            Calculations calculations = new Calculations();
+            calculations.Add();
         }
     }
     class GitClass
@@ -27,5 +29,8 @@ namespace GitProject
         {
             Console.WriteLine("Git method added");
         }
+    }
+    public class GitClassBranch
+    {
     }
 }
